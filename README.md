@@ -1,5 +1,7 @@
 # Engineering Lead Playbook
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Web Reactions](https://api.webreactions.app/badge/github/khasky/engineering-lead-playbook.svg)](https://webreactions.app/?utm_source=github&utm_channel=repository&utm_medium=engineering-lead-playbook)
+
 Practical guide for senior and lead engineers on technical leadership, ownership, decision-making, mentoring, and execution.
 
 > *If I were defining the role of a strong technical lead today, I would optimize for five things first: architectural judgment, delivery clarity, technical quality, multiplier behavior, and calm decision-making under ambiguity.*
