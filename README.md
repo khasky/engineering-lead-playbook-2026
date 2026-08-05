@@ -226,6 +226,14 @@ Great leads reduce recurring decision cost.
 
 Write things down where repetition or reversibility justifies it.
 
+### Keep the ADR the size Nygard designed
+
+Michael Nygard proposed architecture decision records in 2011, and the deliberate constraint was length: one page, in the repository next to the code, with four short sections — **Context**, **Decision**, **Status**, **Consequences**. Consequences covers both the good and the bad, because a decision whose write-up records only upside was not a decision, it was an advertisement.
+
+The immutability rule is the other half. An ADR is never edited once accepted; a later decision gets its own record and supersedes it. That is what makes the folder a history of reasoning rather than a snapshot of current opinion — and it is what a new team member actually needs, because the useful question is almost always "why is it like this" rather than "what is it".
+
+Teams that grow the template kill the practice. A four-page ADR requiring review does not get written, and an undocumented decision is re-argued every eighteen months at full price.
+
 ---
 
 ## Artifacts worth templating
@@ -331,6 +339,14 @@ The lead's job in an incident is calm coordination, not heroic typing.
 
 - blameless postmortems that end in systemic fixes: trace to where the failure originated, not where it paged — the same root-cause discipline the [Observability Playbook](https://github.com/khasky/observability-playbook) applies to production signals;
 - follow-up work protected from roadmap pressure: an action item nobody schedules is a repeat incident with a future date.
+
+### What "blameless" was actually arguing
+
+The practice was popularized by John Allspaw at Etsy in 2012, borrowing just culture from aviation and medicine, and the argument was not about kindness. It was about information: engineers who expect to be punished report less, later, and less precisely — so a blaming organization systematically degrades the data it needs to stop the next failure.
+
+The operational form is a specific question. Not "who made the mistake", but *what made that action look reasonable at the time* — the dashboards, the alert, the runbook, the time pressure. The answer names a systemic fix; "they were careless" names nothing you can change.
+
+Blameless also does not mean accountability-free. The person who acted still walks through what they did and why. What is removed is punishment, because punishment buys silence and nothing else.
 
 The measure of incident leadership is the second incident that never happens.
 
