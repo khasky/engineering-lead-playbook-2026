@@ -1,6 +1,6 @@
 # Engineering Lead Playbook
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Web Reactions](https://api.webreactions.app/badge/github/khasky/engineering-lead-playbook.svg)](https://webreactions.app/?utm_source=github&utm_channel=repository&utm_medium=engineering-lead-playbook)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Emojery](https://api.emojery.app/badge/github/khasky/engineering-lead-playbook.svg)](https://emojery.app/react?t=github/khasky/engineering-lead-playbook)
 
 Practical guide for senior and lead engineers on technical leadership, ownership, decision-making, mentoring, and execution.
 
